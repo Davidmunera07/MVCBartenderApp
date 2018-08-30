@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet"
+          asp-href-include="/lib/bootstrap/dist/**/*.min.css"
+          asp-href-exclude="**/*-reboot*,**/*-grid*" />
+    <title>MVCBartenderApp</title>
+</head>
+<body>
+    <a asp-controller="Cocktail" asp-action="List" class="btn btn-default btn-primary btn btn-lg" role="button">Order Option</a>
+    <a asp-controller="Cocktail" asp-action="OrderQueue" class="btn btn-default btn-primary btn btn-lg" role="button">Order Queue Option</a>
+</body>
+</html>
